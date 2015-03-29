@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.editoffer"
+    android:background="#ffffff"
+    android:id="@+id/editoffer">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/back"
+        android:src="@drawable/backarrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Offers      "
+        android:id="@+id/textView34"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/back"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toEndOf="@+id/back" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/category"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView34"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignEnd="@+id/textView34"
+        android:layout_marginRight="32dp" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/item"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/category"
+        android:layout_alignLeft="@+id/category"
+        android:layout_alignStart="@+id/category" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText10"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/item"
+        android:layout_alignLeft="@+id/item"
+        android:layout_alignStart="@+id/item" />
+
+    <TextView
+        android:text="Category:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:gravity="center"
+        android:layout_alignTop="@+id/category"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/category" />
+
+    <TextView
+        android:text="Item:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView36"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:gravity="center"
+        android:layout_alignTop="@+id/item"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editText10" />
+
+    <TextView
+        android:text="Discount(%):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:gravity="center"
+        android:layout_alignTop="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/editText10" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Edit"
+        android:id="@+id/edit"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/edit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp" />
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.EditInfo"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/back"
+        android:src="@drawable/backarrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Info       "
+        android:id="@+id/textView46"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/back"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toEndOf="@+id/back" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText11"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView46"
+        android:layout_alignRight="@+id/textView46"
+        android:layout_alignEnd="@+id/textView46"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="32dp" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText12"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/editText11"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText13"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/editText12"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_alignStart="@+id/editText12" />
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView47"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_alignTop="@+id/editText11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editText12"
+        android:gravity="center" />
+
+    <TextView
+        android:text="Logo:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView48"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_alignTop="@+id/editText12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editText13"
+        android:gravity="center" />
+
+    <TextView
+        android:text="facebook:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView49"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:gravity="center"
+        android:layout_alignTop="@+id/editText13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="About:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView51"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:gravity="center"
+        android:layout_alignTop="@+id/editText14"
+        android:layout_toLeftOf="@+id/textView46"
+        android:layout_toStartOf="@+id/textView46" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        android:id="@+id/editText14"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText13"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignStart="@+id/editText13"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Save"
+        android:id="@+id/save"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/save"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp" />
+</RelativeLayout>

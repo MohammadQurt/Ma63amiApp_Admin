@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.edit_Info"
+    android:background="#ffffff"
+    >
+
+    <TextView android:text="Restaurant Information" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text1"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Logo:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="FB(Social):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="GPS:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="About:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textSize="20sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText4"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView22"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText5"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView23"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText6"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView24"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText7"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText8"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/back_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/horizontal_line"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Add"
+        android:id="@+id/button3"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

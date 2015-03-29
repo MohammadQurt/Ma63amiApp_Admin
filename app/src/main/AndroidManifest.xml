@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.awj.ma63amiapp_admin" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EditMenu"
+            android:label="@string/title_activity_edit_menu" >
+        </activity>
+        <activity
+            android:name=".addItem"
+            android:label="@string/title_activity_add_item" >
+        </activity>
+        <activity
+            android:name=".edit_BillUI"
+            android:label="@string/title_activity_edit__bill_ui" >
+        </activity>
+        <activity
+            android:name=".edit_gallary"
+            android:label="@string/title_activity_edit_gallary" >
+        </activity>
+        <activity
+            android:name=".edit_Info"
+            android:label="@string/title_activity_edit__info" >
+        </activity>
+        <activity
+            android:name=".Tables"
+            android:label="@string/title_activity_tables" >
+        </activity>
+        <activity
+            android:name=".editItem"
+            android:label="@string/title_activity_edit_item" >
+        </activity>
+        <activity
+            android:name=".offer"
+            android:label="@string/title_activity_offer" >
+        </activity>
+        <activity
+            android:name=".addoffer"
+            android:label="@string/title_activity_addoffer" >
+        </activity>
+        <activity
+            android:name=".editoffer"
+            android:label="@string/title_activity_editoffer" >
+        </activity>
+        <activity
+            android:name=".Orders"
+            android:label="@string/title_activity_orders" >
+        </activity>
+        <activity
+            android:name=".Information"
+            android:label="@string/title_activity_information" >
+        </activity>
+        <activity
+            android:name=".EditInfo"
+            android:label="@string/title_activity_edit_info" >
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name=".ItemFeedback"
+            android:label="@string/title_activity_item_feedback" >
+        </activity>
+        <activity
+            android:name=".RestaurantFeedback"
+            android:label="@string/title_activity_restaurant_feedback" >
+        </activity>
+        <activity
+            android:name=".Payments"
+            android:label="@string/title_activity_payments" >
+        </activity>
+        <activity
+            android:name=".Statistics"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name=".CStatistics"
+            android:label="@string/title_activity_cstatistics" >
+        </activity>
+        <activity
+            android:name=".SalesStatistics"
+            android:label="@string/title_activity_sales_statistics" >
+        </activity>
+    </application>
+
+</manifest>

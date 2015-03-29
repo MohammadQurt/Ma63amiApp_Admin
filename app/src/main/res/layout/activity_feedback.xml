@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.Feedback"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/back"
+        android:src="@drawable/backarrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback      "
+        android:id="@+id/textView50"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toEndOf="@+id/back"
+        android:layout_alignBottom="@+id/back" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/rfeedback"
+        android:src="@drawable/rfeedback"
+        android:layout_below="@+id/textView50"
+        android:layout_alignRight="@+id/textView50"
+        android:layout_alignEnd="@+id/textView50"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/ifeedback"
+        android:layout_alignTop="@+id/rfeedback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ifeedback"
+        android:layout_marginLeft="60dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Item Feedback"
+        android:id="@+id/textView52"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:layout_below="@+id/ifeedback"
+        android:layout_alignLeft="@+id/ifeedback"
+        android:layout_alignStart="@+id/ifeedback"
+        android:layout_alignRight="@+id/ifeedback"
+        android:layout_alignEnd="@+id/ifeedback" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Feedback"
+        android:id="@+id/textView53"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:layout_below="@+id/rfeedback"
+        android:layout_alignRight="@+id/rfeedback"
+        android:layout_alignEnd="@+id/rfeedback"
+        android:layout_alignLeft="@+id/rfeedback"
+        android:layout_alignStart="@+id/rfeedback" />
+
+</RelativeLayout>
